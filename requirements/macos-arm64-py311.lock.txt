@@ -35,7 +35,7 @@ jieba==0.42.1
 Jinja2==3.1.6
 kiwisolver==1.5.1
 langdetect==1.0.9
-latex2sympy2_extended==1.0.6
+latex2sympy2_extended==1.11.0
 MarkupSafe==3.0.4
 math-verify==0.5.2
 matplotlib==3.11.2
