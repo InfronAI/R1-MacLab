@@ -1,0 +1,9 @@
+# Preserve experimental bytes so recorded SHA-256 receipts survive checkout.
+experiments/** -text -whitespace linguist-generated=true
+assets/demo/** -text -whitespace linguist-generated=true
+docs/UPSTREAM_README.md -whitespace
+
+*.safetensors binary
+*.pt binary
+*.bin binary
+*.mp4 binary
