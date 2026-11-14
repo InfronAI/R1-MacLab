@@ -20,7 +20,7 @@ einops==0.8.2
 filelock==4.2.10
 fonttools==4.68.0
 frozenlist==1.8.0
-fsspec==2026.6.0
+fsspec==2026.9.0
 googleapis-common-protos==1.76.0
 h11==0.16.0
 hf-xet==1.8.0
