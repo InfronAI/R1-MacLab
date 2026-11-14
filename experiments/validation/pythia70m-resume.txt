@@ -1,0 +1,27 @@
+[verified, reused] base
+[verified, reused] r1_zero
+[verified, reused] cold_start
+[start] reasoning_rl
+{"stage": "reasoning_rl", "step": 1, "update": 0, "loss": 0.0, "kl": 0.0, "reward": 0.0, "reward_std": 0.0, "zero_variance": true, "completion_tokens": 64.0, "grad_norm": 0.0, "seconds": 9.18442854192108}
+{"stage": "reasoning_rl", "step": 1, "update": 1, "loss": 0.0, "kl": 0.0, "reward": 0.0, "reward_std": 0.0, "zero_variance": true, "completion_tokens": 64.0, "grad_norm": 0.0, "seconds": 9.26744933379814}
+/Users/apple/Projects/open-r1/.venv/lib/python3.11/site-packages/peft/utils/save_and_load.py:236: UserWarning: Could not find a config file in EleutherAI/pythia-70m-deduped - will assume that the vocabulary was not modified.
+  warnings.warn(
+[complete] reasoning_rl: 39.2s
+[start] rejection_sampling
+Traceback (most recent call last):
+  File "/Users/apple/Projects/open-r1/.venv/bin/open-r1", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/Users/apple/Projects/open-r1/src/open_r1/local/cli.py", line 69, in main
+    Run(cfg, args.output, args.resume).run(args.until)
+  File "/Users/apple/Projects/open-r1/src/open_r1/local/pipeline.py", line 260, in run
+    if execute("rejection_sampling", ["reasoning_rl"], self.reject):
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-r1/src/open_r1/local/pipeline.py", line 238, in execute
+    self.stage(name, parents, action)
+  File "/Users/apple/Projects/open-r1/src/open_r1/local/pipeline.py", line 142, in stage
+    info = action(path) or {}
+           ^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-r1/src/open_r1/local/pipeline.py", line 218, in reject
+    raise RuntimeError(
+RuntimeError: Rejection sampling accepted zero traces. Increase training/sampling or supply a better model. Raw candidates are saved; downstream distillation cannot honestly proceed.

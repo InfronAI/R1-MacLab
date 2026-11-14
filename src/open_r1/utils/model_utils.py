@@ -16,12 +16,30 @@ def get_tokenizer(model_args: ModelConfig, training_args: SFTConfig | GRPOConfig
 
     if training_args.chat_template is not None:
         tokenizer.chat_template = training_args.chat_template
+    elif tokenizer.chat_template is None:
+        # Base models (e.g. Pythia) need a template for GRPO as well as SFT.
+        # Reuse existing vocabulary/EOS; avoid resizing a large embedding table just for role delimiters.
+        tokenizer.chat_template = (
+            "{% for message in messages %}{{ message['role'] + ': ' + message['content'] + '\\n' }}"
+            "{% if message['role'] == 'assistant' %}{{ eos_token }}{% endif %}{% endfor %}"
+            "{% if add_generation_prompt %}{{ 'assistant: ' }}{% endif %}"
+        )
 
     return tokenizer
 
 
 def get_model(model_args: ModelConfig, training_args: SFTConfig | GRPOConfig) -> AutoModelForCausalLM:
     """Get the model"""
+    device_type = training_args.device.type
+    if device_type != "cuda":
+        if getattr(model_args, "load_in_4bit", False) or getattr(model_args, "load_in_8bit", False):
+            raise ValueError("bitsandbytes quantization requires the CUDA path; use float32 + LoRA on Mac/CPU.")
+        if model_args.attn_implementation == "flash_attention_2":
+            raise ValueError("FlashAttention requires CUDA; set --attn_implementation eager on Mac/CPU.")
+        if getattr(training_args, "use_vllm", False):
+            raise ValueError("This pinned vLLM backend requires CUDA; set --use_vllm false on Mac/CPU.")
+        if getattr(training_args, "use_liger_kernel", False):
+            raise ValueError("Liger requires CUDA; set --use_liger_kernel false on Mac/CPU.")
     torch_dtype = (
         model_args.torch_dtype if model_args.torch_dtype in ["auto", None] else getattr(torch, model_args.torch_dtype)
     )

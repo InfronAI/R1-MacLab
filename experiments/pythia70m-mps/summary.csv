@@ -1,0 +1,5 @@
+stage,pass_at_1,prompt_cluster_se,pass_at_k,k,majority,format_rate,mean_tokens,truncation_rate,seconds
+base,0.0,0.0,0.0,2,0.0,0.0,64.0,1.0,39.537737084086984
+r1_zero,0.0,0.0,0.0,2,0.0,0.0,64.0,1.0,36.50513641582802
+cold_start,0.0,0.0,0.0,2,0.0,0.0,64.0,1.0,27.46806937502697
+reasoning_rl,0.0,0.0,0.0,2,0.0,0.0,64.0,1.0,39.18577179219574

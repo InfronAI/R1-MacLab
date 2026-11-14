@@ -1,0 +1,8 @@
+{"step": 1, "update": 0, "loss": 0.0, "kl": 0.0, "reward": 0.0, "reward_std": 0.0, "zero_variance": true, "completion_tokens": 64.0, "grad_norm": 0.0, "seconds": 12.06403020909056}
+{"step": 1, "update": 1, "loss": 0.0, "kl": 0.0, "reward": 0.0, "reward_std": 0.0, "zero_variance": true, "completion_tokens": 64.0, "grad_norm": 0.0, "seconds": 12.157648084219545}
+{"step": 2, "update": 0, "loss": 0.0, "kl": 0.0, "reward": 0.0, "reward_std": 0.0, "zero_variance": true, "completion_tokens": 64.0, "grad_norm": 0.0, "seconds": 16.073175834026188}
+{"step": 2, "update": 1, "loss": 0.0, "kl": 0.0, "reward": 0.0, "reward_std": 0.0, "zero_variance": true, "completion_tokens": 64.0, "grad_norm": 0.0, "seconds": 16.15353058418259}
+{"step": 3, "update": 0, "loss": 0.0, "kl": 0.0, "reward": 0.0, "reward_std": 0.0, "zero_variance": true, "completion_tokens": 64.0, "grad_norm": 0.0, "seconds": 19.78821000037715}
+{"step": 3, "update": 1, "loss": 0.0, "kl": 0.0, "reward": 0.0, "reward_std": 0.0, "zero_variance": true, "completion_tokens": 64.0, "grad_norm": 0.0, "seconds": 19.883527541998774}
+{"step": 4, "update": 0, "loss": 0.0, "kl": 0.0, "reward": 0.0, "reward_std": 0.0, "zero_variance": true, "completion_tokens": 64.0, "grad_norm": 0.0, "seconds": 23.11006737500429}
+{"step": 4, "update": 1, "loss": 0.0, "kl": 0.0, "reward": 0.0, "reward_std": 0.0, "zero_variance": true, "completion_tokens": 64.0, "grad_norm": 0.0, "seconds": 23.197309625335038}

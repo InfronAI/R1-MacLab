@@ -1,0 +1,6 @@
+{
+  "generator": "synthetic-v1",
+  "sha256": "aece99c9aae814ce0e71cd3bb7ca9ff182784bc9cd06169d7862bf99da8030a7",
+  "prompt_disjoint": true,
+  "note": "General/safety splits hold out prompt IDs, not semantic templates."
+}

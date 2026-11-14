@@ -1,0 +1,8 @@
+{
+  "cpu_loss": 4.158980369567871,
+  "mps_loss": 4.159122943878174,
+  "max_absolute_logit_diff": 0.0042724609375,
+  "mean_absolute_logit_diff": 0.0006567518576048315,
+  "cpu_top": "\n The It A And",
+  "mps_top": "\n The It A And"
+}

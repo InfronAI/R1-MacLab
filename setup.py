@@ -69,7 +69,7 @@ _deps = [
     "sentencepiece>=0.1.99",
     "torch==2.6.0",
     "transformers==4.52.3",
-    "trl[vllm]==0.18.0",
+    "trl==0.18.0",
     "wandb>=0.19.1",
     "async-lru>=2.0.5",
     "aiofiles>=24.1.0",
@@ -92,6 +92,9 @@ def deps_list(*pkgs):
 extras = {}
 extras["tests"] = deps_list("pytest", "parameterized", "math-verify", "jieba")
 extras["torch"] = deps_list("torch")
+extras["mac"] = deps_list("torch") + ["peft==0.15.2", "matplotlib>=3.8", "pillow>=10"]
+extras["cuda"] = deps_list("bitsandbytes", "deepspeed", "liger-kernel") + ["vllm==0.8.5.post1"]
+extras["generate"] = deps_list("distilabel")
 extras["quality"] = deps_list("ruff", "isort", "flake8")
 extras["code"] = deps_list("e2b-code-interpreter", "python-dotenv", "morphcloud", "jieba", "pandas", "aiofiles")
 extras["eval"] = deps_list("lighteval", "math-verify")
@@ -99,17 +102,15 @@ extras["dev"] = extras["quality"] + extras["tests"] + extras["eval"] + extras["c
 
 # core dependencies shared across the whole project - keep this to a bare minimum :)
 install_requires = [
+    deps["torch"],
     deps["accelerate"],
-    deps["bitsandbytes"],
     deps["einops"],
     deps["datasets"],
-    deps["deepspeed"],
     deps["hf_transfer"],
     deps["huggingface-hub"],
     deps["langdetect"],
     deps["latex2sympy2_extended"],
     deps["math-verify"],
-    deps["liger-kernel"],
     deps["packaging"],  # utilities from PyPA to e.g., compare versions
     deps["safetensors"],
     deps["sentencepiece"],
@@ -117,6 +118,8 @@ install_requires = [
     deps["trl"],
     deps["wandb"],
     deps["async-lru"],
+    "python-dotenv",
+    "aiohttp",
 ]
 
 setup(
@@ -124,18 +127,19 @@ setup(
     version="0.1.0.dev0",  # expected format is one of x.y.z.dev0, or x.y.z.rc1 or x.y.z (no to dashes, yes to dots)
     author="The Hugging Face team (past and future)",
     author_email="lewis@huggingface.co",
-    description="Open R1",
+    description="R1 MacLab: reproducible small-scale DeepSeek-R1 experiments on Apple Silicon",
     long_description=open("README.md", "r", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
     keywords="llm inference-time compute reasoning",
     license="Apache",
-    url="https://github.com/huggingface/open-r1",
+    url="https://github.com/InfronAI/R1-MacLab",
     package_dir={"": "src"},
     packages=find_packages("src"),
     zip_safe=False,
     extras_require=extras,
     python_requires=">=3.10.9",
     install_requires=install_requires,
+    entry_points={"console_scripts": ["open-r1=open_r1.local.cli:main"]},
     classifiers=[
         "Development Status :: 3 - Alpha",
         "Intended Audience :: Developers",

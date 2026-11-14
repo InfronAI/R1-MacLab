@@ -1,0 +1,7 @@
+{
+  "source": "real subprocess stdout/stderr",
+  "run": "experiments/m1-final-seed42",
+  "recorded_seconds": 14.801478125154972,
+  "video_seconds": 26.3,
+  "timing": "Terminal replay; idle gaps capped and per-line reading time added. session.cast retains raw timing."
+}

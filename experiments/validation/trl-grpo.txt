@@ -1,0 +1,16 @@
+2026-11-14 16:24:21 - WARNING - __main__ - Process rank: 0, device: mps, n_gpu: 1 distributed training: True, 16-bits training: False
+Map:   0%|          | 0/167 [00:00<?, ? examples/s]Map: 100%|██████████| 167/167 [00:00<00:00, 18011.03 examples/s]
+Map:   0%|          | 0/23 [00:00<?, ? examples/s]Map: 100%|██████████| 23/23 [00:00<00:00, 7079.25 examples/s]
+Map:   0%|          | 0/20 [00:00<?, ? examples/s]Map: 100%|██████████| 20/20 [00:00<00:00, 7518.69 examples/s]
+[WARNING|trainer.py:791] 2026-11-14 16:24:23,729 >> No label_names provided for model class `PeftModelForCausalLM`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:18<00:18, 18.06s/it]                                              50%|█████     | 1/2 [00:18<00:18, 18.06s/it]100%|██████████| 2/2 [00:20<00:00,  8.58s/it]                                             100%|██████████| 2/2 [00:20<00:00,  8.58s/it]                                             100%|██████████| 2/2 [00:20<00:00,  8.58s/it]100%|██████████| 2/2 [00:20<00:00, 10.00s/it]
+{'loss': 0.0, 'grad_norm': 0.0, 'learning_rate': 2e-05, 'num_tokens': 96.0, 'completions/mean_length': 32.0, 'completions/min_length': 32.0, 'completions/max_length': 32.0, 'completions/clipped_ratio': 1.0, 'completions/mean_terminated_length': 0.0, 'completions/min_terminated_length': 0.0, 'completions/max_terminated_length': 0.0, 'rewards/accuracy_reward/mean': 0.0, 'rewards/accuracy_reward/std': 0.0, 'rewards/format_reward/mean': 0.0, 'rewards/format_reward/std': 0.0, 'reward': 0.0, 'reward_std': 0.0, 'frac_reward_zero_std': 1.0, 'kl': 0.0, 'clip_ratio/low_mean': 0.0, 'clip_ratio/low_min': 0.0, 'clip_ratio/high_mean': 0.0, 'clip_ratio/high_max': 0.0, 'clip_ratio/region_mean': 0.0, 'epoch': 0.01}
+{'loss': 0.0, 'grad_norm': 0.0, 'learning_rate': 1e-05, 'num_tokens': 192.0, 'completions/mean_length': 32.0, 'completions/min_length': 32.0, 'completions/max_length': 32.0, 'completions/clipped_ratio': 1.0, 'completions/mean_terminated_length': 0.0, 'completions/min_terminated_length': 0.0, 'completions/max_terminated_length': 0.0, 'rewards/accuracy_reward/mean': 0.0, 'rewards/accuracy_reward/std': 0.0, 'rewards/format_reward/mean': 0.0, 'rewards/format_reward/std': 0.0, 'reward': 0.0, 'reward_std': 0.0, 'frac_reward_zero_std': 1.0, 'kl': 0.0, 'clip_ratio/low_mean': 0.0, 'clip_ratio/low_min': 0.0, 'clip_ratio/high_mean': 0.0, 'clip_ratio/high_max': 0.0, 'clip_ratio/region_mean': 0.0, 'epoch': 0.01}
+{'train_runtime': 20.0109, 'train_samples_per_second': 0.2, 'train_steps_per_second': 0.1, 'train_loss': 0.0, 'epoch': 0.01}
+***** train metrics *****
+  total_flos               =        0GF
+  train_loss               =        0.0
+  train_runtime            = 0:00:20.01
+  train_samples            =        167
+  train_samples_per_second =        0.2
+  train_steps_per_second   =        0.1

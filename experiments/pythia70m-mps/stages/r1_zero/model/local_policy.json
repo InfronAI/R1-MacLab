@@ -1,0 +1,7 @@
+{
+  "backend": "hf",
+  "model_name": "EleutherAI/pythia-70m-deduped",
+  "revision": "e93a9faa9c77e5d09219f6c868bfc7a1bd65593c",
+  "student": false,
+  "student_note": "Same backbone, independent adapter; not size distillation"
+}

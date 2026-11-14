@@ -1,4 +1,4 @@
-.PHONY: style quality
+.PHONY: style quality install install-mac install-cuda doctor local local-resume local-test local-report local-demo
 
 # make sure to test the local checkout in scripts and not the pre-installed one (don't use quotes!)
 export PYTHONPATH = src
@@ -8,20 +8,49 @@ check_dirs := src tests
 
 # dev dependencies
 install:
+	@if [ "$$(uname -s)" = "Darwin" ]; then $(MAKE) install-mac; else $(MAKE) install-cuda; fi
+
+install-cuda:
 	uv venv openr1 --python 3.11
 	. openr1/bin/activate && uv pip install --upgrade pip && \
 	uv pip install vllm==0.8.5.post1 && \
 	uv pip install setuptools && \
 	uv pip install flash-attn --no-build-isolation && \
-	GIT_LFS_SKIP_SMUDGE=1 uv pip install -e ".[dev]"
+	GIT_LFS_SKIP_SMUDGE=1 uv pip install -e ".[dev,cuda]"
+
+PYTHON ?= python3.11
+LOCAL_PYTHON ?= .venv/bin/python
+RUN ?= experiments/local-m1
+
+install-mac:
+	$(PYTHON) -m venv .venv
+	$(LOCAL_PYTHON) -m pip install --upgrade pip
+	$(LOCAL_PYTHON) -m pip install -e ".[mac,tests]"
+
+doctor:
+	$(LOCAL_PYTHON) -m open_r1.local.cli doctor
+
+local:
+	$(LOCAL_PYTHON) -m open_r1.local.cli run --config recipes/local/m1.json --output $(RUN)
+
+local-resume:
+	$(LOCAL_PYTHON) -m open_r1.local.cli run --config recipes/local/m1.json --output $(RUN) --resume
+
+local-test:
+	$(LOCAL_PYTHON) -m pytest -q tests/local
+
+local-report:
+	$(LOCAL_PYTHON) -m open_r1.local.cli report --run $(RUN)
+
+local-demo:
+	$(LOCAL_PYTHON) scripts/record_local_demo.py --run $(RUN)
 
 style:
 	ruff format --line-length 119 --target-version py310 $(check_dirs) setup.py
-	isort $(check_dirs) setup.py
 
 quality:
 	ruff check --line-length 119 --target-version py310 $(check_dirs) setup.py
-	isort --check-only $(check_dirs) setup.py
+	ruff format --check src/open_r1/local tests/local
 	flake8 --max-line-length 119 $(check_dirs) setup.py
 
 test:

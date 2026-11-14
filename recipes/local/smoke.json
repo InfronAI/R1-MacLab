@@ -1,0 +1,19 @@
+{
+  "device": "cpu",
+  "width": 32,
+  "student_width": 16,
+  "layers": 1,
+  "batch_size": 2,
+  "pretrain_steps": 1,
+  "cold_steps": 1,
+  "sft_steps": 1,
+  "distill_steps": 1,
+  "rl_steps": 1,
+  "alignment_steps": 1,
+  "reward_steps": 1,
+  "eval_limit": 2,
+  "eval_samples": 2,
+  "max_new_tokens": 12,
+  "rejection_prompts": 2,
+  "ablations": false
+}

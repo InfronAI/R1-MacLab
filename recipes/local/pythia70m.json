@@ -1,0 +1,20 @@
+{
+  "backend": "hf",
+  "model_name": "EleutherAI/pythia-70m-deduped",
+  "revision": "e93a9faa9c77e5d09219f6c868bfc7a1bd65593c",
+  "device": "mps",
+  "local_files_only": true,
+  "batch_size": 2,
+  "learning_rate": 0.0003,
+  "rl_learning_rate": 0.00002,
+  "cold_steps": 100,
+  "sft_steps": 100,
+  "distill_steps": 100,
+  "rl_steps": 4,
+  "alignment_steps": 4,
+  "max_new_tokens": 64,
+  "eval_limit": 5,
+  "eval_samples": 2,
+  "rejection_prompts": 24,
+  "ablations": false
+}

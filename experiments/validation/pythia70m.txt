@@ -1,0 +1,15 @@
+[start] base
+'(ReadTimeoutError("HTTPSConnectionPool(host='huggingface.co', port=443): Read timed out. (read timeout=10)"), '(Request ID: 1f890afa-b968-467e-8377-4cd13b6eea32)')' thrown while requesting HEAD https://huggingface.co/api/resolve-cache/models/EleutherAI/pythia-70m-deduped/e93a9faa9c77e5d09219f6c868bfc7a1bd65593c/config.json
+Retrying in 1s [Retry 1/5].
+[complete] base: 39.5s
+[start] r1_zero
+{"stage": "r1_zero", "step": 1, "update": 0, "loss": 0.0, "kl": 0.0, "reward": 0.0, "reward_std": 0.0, "zero_variance": true, "completion_tokens": 64.0, "grad_norm": 0.0, "seconds": 12.06403020909056}
+{"stage": "r1_zero", "step": 1, "update": 1, "loss": 0.0, "kl": 0.0, "reward": 0.0, "reward_std": 0.0, "zero_variance": true, "completion_tokens": 64.0, "grad_norm": 0.0, "seconds": 12.157648084219545}
+[complete] r1_zero: 36.5s
+[start] cold_start
+{"stage": "cold_start", "step": 1, "loss": 61.94367218017578, "grad_norm": 33.07500457763672, "tokens": 42, "seconds": 0.6926564578898251}
+{"stage": "cold_start", "step": 25, "loss": 11.109113693237305, "grad_norm": 272374.78125, "tokens": 40, "seconds": 3.4648530832491815}
+{"stage": "cold_start", "step": 50, "loss": 5.219293117523193, "grad_norm": 935371.6875, "tokens": 40, "seconds": 6.619704000186175}
+{"stage": "cold_start", "step": 75, "loss": 4.100983142852783, "grad_norm": 262900.1875, "tokens": 41, "seconds": 8.330601875204593}
+{"stage": "cold_start", "step": 100, "loss": 2.6932766437530518, "grad_norm": 918585.375, "tokens": 40, "seconds": 10.058624958153814}
+[complete] cold_start: 27.5s

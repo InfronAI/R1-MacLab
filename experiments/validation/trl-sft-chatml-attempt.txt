@@ -1,0 +1,21 @@
+Generating train split: 0 examples [00:00, ? examples/s]Generating train split: 167 examples [00:00, 45712.25 examples/s]
+Generating validation split: 0 examples [00:00, ? examples/s]Generating validation split: 23 examples [00:00, 18516.12 examples/s]
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 20 examples [00:00, 22098.55 examples/s]
+Converting train dataset to ChatML:   0%|          | 0/167 [00:00<?, ? examples/s]Converting train dataset to ChatML: 100%|██████████| 167/167 [00:00<00:00, 13128.82 examples/s]
+Applying chat template to train dataset:   0%|          | 0/167 [00:00<?, ? examples/s]Applying chat template to train dataset: 100%|██████████| 167/167 [00:00<00:00, 15183.25 examples/s]
+Tokenizing train dataset:   0%|          | 0/167 [00:00<?, ? examples/s]Tokenizing train dataset: 100%|██████████| 167/167 [00:00<00:00, 6937.27 examples/s]
+Truncating train dataset:   0%|          | 0/167 [00:00<?, ? examples/s]Truncating train dataset: 100%|██████████| 167/167 [00:00<00:00, 62317.51 examples/s]
+[WARNING|trainer.py:791] 2026-11-14 15:26:20,443 >> No label_names provided for model class `PeftModelForCausalLM`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:02<00:02,  2.18s/it]                                              50%|█████     | 1/2 [00:02<00:02,  2.18s/it]100%|██████████| 2/2 [00:02<00:00,  1.06s/it]                                             100%|██████████| 2/2 [00:02<00:00,  1.06s/it]                                             100%|██████████| 2/2 [00:02<00:00,  1.06s/it]100%|██████████| 2/2 [00:02<00:00,  1.23s/it]
+/Users/apple/Projects/open-r1/.venv/lib/python3.11/site-packages/peft/utils/save_and_load.py:250: UserWarning: Setting `save_embedding_layers` to `True` as the embedding layer has been resized during finetuning.
+  warnings.warn(
+{'loss': 108.4455, 'grad_norm': 33.0242919921875, 'learning_rate': 0.0003, 'num_tokens': 39.0, 'mean_token_accuracy': 0.2631579041481018, 'epoch': 0.01}
+{'loss': 102.8831, 'grad_norm': 5440.71435546875, 'learning_rate': 0.00015, 'num_tokens': 80.0, 'mean_token_accuracy': 0.2750000059604645, 'epoch': 0.01}
+{'train_runtime': 2.466, 'train_samples_per_second': 0.811, 'train_steps_per_second': 0.811, 'train_loss': 105.6643180847168, 'epoch': 0.01}
+***** train metrics *****
+  total_flos               =       20GF
+  train_loss               =   105.6643
+  train_runtime            = 0:00:02.46
+  train_samples            =        167
+  train_samples_per_second =      0.811
+  train_steps_per_second   =      0.811

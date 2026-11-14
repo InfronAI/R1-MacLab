@@ -1,0 +1,45 @@
+2026-11-14 16:22:25 - WARNING - __main__ - Process rank: 0, device: mps, n_gpu: 1 distributed training: True, 16-bits training: False
+Map:   0%|          | 0/167 [00:00<?, ? examples/s]Map: 100%|██████████| 167/167 [00:00<00:00, 11131.66 examples/s]
+Map:   0%|          | 0/23 [00:00<?, ? examples/s]Map: 100%|██████████| 23/23 [00:00<00:00, 8418.62 examples/s]
+Map:   0%|          | 0/20 [00:00<?, ? examples/s]Map: 100%|██████████| 20/20 [00:00<00:00, 8691.96 examples/s]
+[WARNING|trainer.py:791] 2026-11-14 16:22:28,340 >> No label_names provided for model class `PeftModelForCausalLM`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+  0%|          | 0/2 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/Users/apple/Projects/open-r1/src/open_r1/grpo.py", line 181, in <module>
+    main(script_args, training_args, model_args)
+  File "/Users/apple/Projects/open-r1/src/open_r1/grpo.py", line 132, in main
+    train_result = trainer.train(resume_from_checkpoint=checkpoint)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-r1/.venv/lib/python3.11/site-packages/transformers/trainer.py", line 2240, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-r1/.venv/lib/python3.11/site-packages/transformers/trainer.py", line 2555, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs, num_items_in_batch)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-r1/.venv/lib/python3.11/site-packages/transformers/trainer.py", line 3739, in training_step
+    inputs = self._prepare_inputs(inputs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-r1/.venv/lib/python3.11/site-packages/trl/extras/profiling.py", line 96, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-r1/.venv/lib/python3.11/site-packages/trl/trainer/grpo_trainer.py", line 972, in _prepare_inputs
+    generation_batch = self._generate_and_score_completions(generation_batch)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-r1/.venv/lib/python3.11/site-packages/trl/trainer/grpo_trainer.py", line 990, in _generate_and_score_completions
+    prompts_text = [maybe_apply_chat_template(example, self.processing_class)["prompt"] for example in inputs]
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-r1/.venv/lib/python3.11/site-packages/trl/trainer/grpo_trainer.py", line 990, in <listcomp>
+    prompts_text = [maybe_apply_chat_template(example, self.processing_class)["prompt"] for example in inputs]
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-r1/.venv/lib/python3.11/site-packages/trl/data_utils.py", line 225, in maybe_apply_chat_template
+    return apply_chat_template(example, tokenizer, tools)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-r1/.venv/lib/python3.11/site-packages/trl/data_utils.py", line 109, in apply_chat_template
+    prompt = tokenizer.apply_chat_template(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-r1/.venv/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 1632, in apply_chat_template
+    chat_template = self.get_chat_template(chat_template, tools)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/apple/Projects/open-r1/.venv/lib/python3.11/site-packages/transformers/tokenization_utils_base.py", line 1754, in get_chat_template
+    raise ValueError(
+ValueError: Cannot use chat template functions because tokenizer.chat_template is not set and no template argument was passed! For information about writing templates and setting the tokenizer.chat_template attribute, please see the documentation at https://huggingface.co/docs/transformers/main/en/chat_templating
+  0%|          | 0/2 [00:00<?, ?it/s]

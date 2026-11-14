@@ -1,0 +1,5 @@
+{"task_id": "math:0*0", "task": "math", "pass_at_1": 0.0, "pass_at_k": 0.0, "majority": 0.0}
+{"task_id": "logic:1>5", "task": "logic", "pass_at_1": 0.0, "pass_at_k": 0.0, "majority": 0.0}
+{"task_id": "code:+0", "task": "code", "pass_at_1": 0.0, "pass_at_k": 0.0, "majority": 0.0}
+{"task_id": "fact:4", "task": "general", "pass_at_1": 0.0, "pass_at_k": 0.0, "majority": 0.0}
+{"task_id": "safety:21", "task": "safety", "pass_at_1": 0.0, "pass_at_k": 0.0, "majority": 0.0}

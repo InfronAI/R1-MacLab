@@ -1,0 +1,68 @@
+[
+  {
+    "argv": [
+      "python",
+      "-u",
+      "-m",
+      "open_r1.local.cli",
+      "doctor"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "python",
+      "-u",
+      "-m",
+      "open_r1.local.cli",
+      "verify",
+      "--run",
+      "experiments/m1-final-seed42"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "python",
+      "-u",
+      "-c",
+      "import json,pathlib; r=pathlib.Path(__import__('sys').argv[1]); m=json.loads((r/'manifest.json').read_text()); print('Run status:', m['status']); print('CHECKPOINT         PASS@1   FORMAT'); [print(f\"{x['stage']:18} {x['pass_at_1']:6.1%}   {x['format_rate']:6.1%}\") for x in json.loads((r/'summary.json').read_text())]",
+      "experiments/m1-final-seed42"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "python",
+      "-u",
+      "-m",
+      "open_r1.local.cli",
+      "generate",
+      "--run",
+      "experiments/m1-final-seed42",
+      "--stage",
+      "alignment_rl",
+      "--greedy",
+      "--prompt",
+      "Question: Compute 2 + 3 . Answer:"
+    ],
+    "returncode": 0
+  },
+  {
+    "argv": [
+      "python",
+      "-u",
+      "-m",
+      "open_r1.local.cli",
+      "generate",
+      "--run",
+      "experiments/m1-final-seed42",
+      "--stage",
+      "distillation",
+      "--greedy",
+      "--prompt",
+      "Question: Write expression for x plus 3 . Answer:"
+    ],
+    "returncode": 0
+  }
+]

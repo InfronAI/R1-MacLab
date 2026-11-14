@@ -1,0 +1,160 @@
+{"step": 1, "task_id": "math:0-6", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [13, 19, 2], "text": "- 3", "truncated": false}
+{"step": 1, "task_id": "math:0-6", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [13, 19, 2], "text": "- 3", "truncated": false}
+{"step": 1, "task_id": "math:0-6", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [13, 16, 2], "text": "- 0", "truncated": false}
+{"step": 1, "task_id": "math:0-6", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [13, 18, 2], "text": "- 2", "truncated": false}
+{"step": 2, "task_id": "logic:5>1", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 2, "task_id": "logic:5>1", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 2, "task_id": "logic:5>1", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 2, "task_id": "logic:5>1", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [75, 2], "text": "yes", "truncated": false}
+{"step": 3, "task_id": "math:2+5", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [19, 2], "text": "3", "truncated": false}
+{"step": 3, "task_id": "math:2+5", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [23, 2], "text": "7", "truncated": false}
+{"step": 3, "task_id": "math:2+5", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [16, 2], "text": "0", "truncated": false}
+{"step": 3, "task_id": "math:2+5", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [17, 22, 2], "text": "16", "truncated": false}
+{"step": 4, "task_id": "math:9-3", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [22, 2], "text": "6", "truncated": false}
+{"step": 4, "task_id": "math:9-3", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [23, 2], "text": "7", "truncated": false}
+{"step": 4, "task_id": "math:9-3", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [21, 2], "text": "5", "truncated": false}
+{"step": 4, "task_id": "math:9-3", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [16, 2], "text": "0", "truncated": false}
+{"step": 5, "task_id": "math:6*9", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [19, 19, 2], "text": "33", "truncated": false}
+{"step": 5, "task_id": "math:6*9", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [20, 19, 2], "text": "43", "truncated": false}
+{"step": 5, "task_id": "math:6*9", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [16, 2], "text": "0", "truncated": false}
+{"step": 5, "task_id": "math:6*9", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [19, 20, 2], "text": "34", "truncated": false}
+{"step": 6, "task_id": "math:1+6", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [19, 18, 2], "text": "32", "truncated": false}
+{"step": 6, "task_id": "math:1+6", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [16, 2], "text": "0", "truncated": false}
+{"step": 6, "task_id": "math:1+6", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [18, 20, 2], "text": "24", "truncated": false}
+{"step": 6, "task_id": "math:1+6", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [20, 2], "text": "4", "truncated": false}
+{"step": 7, "task_id": "logic:9>0", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 7, "task_id": "logic:9>0", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [75, 2], "text": "yes", "truncated": false}
+{"step": 7, "task_id": "logic:9>0", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 7, "task_id": "logic:9>0", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 8, "task_id": "code:-3", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 24, 2], "text": "x * 8", "truncated": false}
+{"step": 8, "task_id": "code:-3", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 20, 2], "text": "x * 4", "truncated": false}
+{"step": 8, "task_id": "code:-3", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 24, 2], "text": "x * 8", "truncated": false}
+{"step": 8, "task_id": "code:-3", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 19, 2], "text": "x * 3", "truncated": false}
+{"step": 9, "task_id": "math:0+3", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [18, 2], "text": "2", "truncated": false}
+{"step": 9, "task_id": "math:0+3", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [18, 2], "text": "2", "truncated": false}
+{"step": 9, "task_id": "math:0+3", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [18, 2], "text": "2", "truncated": false}
+{"step": 9, "task_id": "math:0+3", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [19, 2], "text": "3", "truncated": false}
+{"step": 10, "task_id": "code:+7", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 11, 24, 2], "text": "x + 8", "truncated": false}
+{"step": 10, "task_id": "code:+7", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 17, 2], "text": "x * 1", "truncated": false}
+{"step": 10, "task_id": "code:+7", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 11, 24, 2], "text": "x + 8", "truncated": false}
+{"step": 10, "task_id": "code:+7", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 11, 22, 2], "text": "x + 6", "truncated": false}
+{"step": 11, "task_id": "logic:8>4", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 11, "task_id": "logic:8>4", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 11, "task_id": "logic:8>4", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [75, 2], "text": "yes", "truncated": false}
+{"step": 11, "task_id": "logic:8>4", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [75, 2], "text": "yes", "truncated": false}
+{"step": 12, "task_id": "code:*20", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 17, 24, 2], "text": "x * 18", "truncated": false}
+{"step": 12, "task_id": "code:*20", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 11, 17, 22, 2], "text": "x + 16", "truncated": false}
+{"step": 12, "task_id": "code:*20", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 17, 16, 2], "text": "x * 10", "truncated": false}
+{"step": 12, "task_id": "code:*20", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 17, 19, 2], "text": "x * 13", "truncated": false}
+{"step": 13, "task_id": "logic:6>9", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 13, "task_id": "logic:6>9", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 13, "task_id": "logic:6>9", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 13, "task_id": "logic:6>9", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 14, "task_id": "code:+14", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 17, 19, 2], "text": "x * 13", "truncated": false}
+{"step": 14, "task_id": "code:+14", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 21, 14, 2], "text": "x * 5 .", "truncated": false}
+{"step": 14, "task_id": "code:+14", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 18, 18, 2], "text": "x * 22", "truncated": false}
+{"step": 14, "task_id": "code:+14", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 13, 41, 29, 26, 74, 11, 25, 2], "text": "x - Question Answer : x + 9", "truncated": false}
+{"step": 15, "task_id": "math:8-5", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [18, 2], "text": "2", "truncated": false}
+{"step": 15, "task_id": "math:8-5", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [25, 2], "text": "9", "truncated": false}
+{"step": 15, "task_id": "math:8-5", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [23, 2], "text": "7", "truncated": false}
+{"step": 15, "task_id": "math:8-5", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [18, 2], "text": "2", "truncated": false}
+{"step": 16, "task_id": "logic:7>5", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 16, "task_id": "logic:7>5", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 16, "task_id": "logic:7>5", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [75, 2], "text": "yes", "truncated": false}
+{"step": 16, "task_id": "logic:7>5", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [75, 2], "text": "yes", "truncated": false}
+{"step": 17, "task_id": "logic:2>9", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 17, "task_id": "logic:2>9", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 17, "task_id": "logic:2>9", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 17, "task_id": "logic:2>9", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 18, "task_id": "math:1-0", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [22, 2], "text": "6", "truncated": false}
+{"step": 18, "task_id": "math:1-0", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [19, 2], "text": "3", "truncated": false}
+{"step": 18, "task_id": "math:1-0", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [18, 2], "text": "2", "truncated": false}
+{"step": 18, "task_id": "math:1-0", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [40, 2], "text": "Please", "truncated": false}
+{"step": 19, "task_id": "math:1*7", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [17, 19, 2], "text": "13", "truncated": false}
+{"step": 19, "task_id": "math:1*7", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [17, 18, 2], "text": "12", "truncated": false}
+{"step": 19, "task_id": "math:1*7", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [20, 14, 2], "text": "4 .", "truncated": false}
+{"step": 19, "task_id": "math:1*7", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [41, 26, 16, 2], "text": "Question : 0", "truncated": false}
+{"step": 20, "task_id": "math:2-1", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [19, 2], "text": "3", "truncated": false}
+{"step": 20, "task_id": "math:2-1", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [13, 25, 2], "text": "- 9", "truncated": false}
+{"step": 20, "task_id": "math:2-1", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [13, 22, 2], "text": "- 6", "truncated": false}
+{"step": 20, "task_id": "math:2-1", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [16, 2], "text": "0", "truncated": false}
+{"step": 21, "task_id": "logic:7>0", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 21, "task_id": "logic:7>0", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 21, "task_id": "logic:7>0", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [75, 2], "text": "yes", "truncated": false}
+{"step": 21, "task_id": "logic:7>0", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 22, "task_id": "math:2*6", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [19, 20, 2], "text": "34", "truncated": false}
+{"step": 22, "task_id": "math:2*6", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [16, 2], "text": "0", "truncated": false}
+{"step": 22, "task_id": "math:2*6", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [24, 2], "text": "8", "truncated": false}
+{"step": 22, "task_id": "math:2*6", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [18, 24, 2], "text": "28", "truncated": false}
+{"step": 23, "task_id": "math:1+6", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [24, 2], "text": "8", "truncated": false}
+{"step": 23, "task_id": "math:1+6", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [18, 17, 2], "text": "21", "truncated": false}
+{"step": 23, "task_id": "math:1+6", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [22, 2], "text": "6", "truncated": false}
+{"step": 23, "task_id": "math:1+6", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [19, 17, 2], "text": "31", "truncated": false}
+{"step": 24, "task_id": "math:2*7", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [18, 18, 2], "text": "22", "truncated": false}
+{"step": 24, "task_id": "math:2*7", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [17, 23, 2], "text": "17", "truncated": false}
+{"step": 24, "task_id": "math:2*7", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [23, 2], "text": "7", "truncated": false}
+{"step": 24, "task_id": "math:2*7", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [16, 2], "text": "0", "truncated": false}
+{"step": 25, "task_id": "code:*6", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 17, 2], "text": "x * 1", "truncated": false}
+{"step": 25, "task_id": "code:*6", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 11, 18, 2], "text": "x + 2", "truncated": false}
+{"step": 25, "task_id": "code:*6", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 56, 17, 2], "text": "x minus 1", "truncated": false}
+{"step": 25, "task_id": "code:*6", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 16, 2], "text": "x * 0", "truncated": false}
+{"step": 26, "task_id": "code:-2", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 17, 2], "text": "x * 1", "truncated": false}
+{"step": 26, "task_id": "code:-2", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 13, 18, 2], "text": "x - 2", "truncated": false}
+{"step": 26, "task_id": "code:-2", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 18, 2], "text": "x * 2", "truncated": false}
+{"step": 26, "task_id": "code:-2", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 18, 2], "text": "x * 2", "truncated": false}
+{"step": 27, "task_id": "math:2*2", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [18, 2], "text": "2", "truncated": false}
+{"step": 27, "task_id": "math:2*2", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [24, 2], "text": "8", "truncated": false}
+{"step": 27, "task_id": "math:2*2", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [16, 2], "text": "0", "truncated": false}
+{"step": 27, "task_id": "math:2*2", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [17, 2], "text": "1", "truncated": false}
+{"step": 28, "task_id": "logic:7>3", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [75, 2], "text": "yes", "truncated": false}
+{"step": 28, "task_id": "logic:7>3", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 28, "task_id": "logic:7>3", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [75, 2], "text": "yes", "truncated": false}
+{"step": 28, "task_id": "logic:7>3", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 29, "task_id": "code:+5", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 16, 2], "text": "x * 0", "truncated": false}
+{"step": 29, "task_id": "code:+5", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 18, 2], "text": "x * 2", "truncated": false}
+{"step": 29, "task_id": "code:+5", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 11, 23, 2], "text": "x + 7", "truncated": false}
+{"step": 29, "task_id": "code:+5", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 17, 2], "text": "x * 1", "truncated": false}
+{"step": 30, "task_id": "math:4*8", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [16, 2], "text": "0", "truncated": false}
+{"step": 30, "task_id": "math:4*8", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [22, 2], "text": "6", "truncated": false}
+{"step": 30, "task_id": "math:4*8", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [24, 2], "text": "8", "truncated": false}
+{"step": 30, "task_id": "math:4*8", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [17, 16, 2], "text": "10", "truncated": false}
+{"step": 31, "task_id": "code:-20", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 11, 18, 21, 2], "text": "x + 25", "truncated": false}
+{"step": 31, "task_id": "code:-20", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 13, 17, 2], "text": "x * - 1", "truncated": false}
+{"step": 31, "task_id": "code:-20", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 18, 16, 2], "text": "x * 20", "truncated": false}
+{"step": 31, "task_id": "code:-20", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 11, 2], "text": "x +", "truncated": false}
+{"step": 32, "task_id": "logic:3>1", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [75, 2], "text": "yes", "truncated": false}
+{"step": 32, "task_id": "logic:3>1", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [75, 2], "text": "yes", "truncated": false}
+{"step": 32, "task_id": "logic:3>1", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 32, "task_id": "logic:3>1", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [75, 2], "text": "yes", "truncated": false}
+{"step": 33, "task_id": "logic:7>0", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 33, "task_id": "logic:7>0", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [75, 2], "text": "yes", "truncated": false}
+{"step": 33, "task_id": "logic:7>0", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 33, "task_id": "logic:7>0", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [75, 2], "text": "yes", "truncated": false}
+{"step": 34, "task_id": "math:1-1", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [18, 2], "text": "2", "truncated": false}
+{"step": 34, "task_id": "math:1-1", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [22, 2], "text": "6", "truncated": false}
+{"step": 34, "task_id": "math:1-1", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [13, 17, 2], "text": "- 1", "truncated": false}
+{"step": 34, "task_id": "math:1-1", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [13, 18, 2], "text": "- 2", "truncated": false}
+{"step": 35, "task_id": "logic:0>8", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 35, "task_id": "logic:0>8", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 35, "task_id": "logic:0>8", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 35, "task_id": "logic:0>8", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 36, "task_id": "code:+21", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 17, 19, 2], "text": "x * 13", "truncated": false}
+{"step": 36, "task_id": "code:+21", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 18, 18, 2], "text": "x * 22", "truncated": false}
+{"step": 36, "task_id": "code:+21", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 11, 17, 19, 2], "text": "x + 13", "truncated": false}
+{"step": 36, "task_id": "code:+21", "task": "code", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [74, 10, 18, 21, 2], "text": "x * 25", "truncated": false}
+{"step": 37, "task_id": "math:1+1", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [19, 2], "text": "3", "truncated": false}
+{"step": 37, "task_id": "math:1+1", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [18, 2], "text": "2", "truncated": false}
+{"step": 37, "task_id": "math:1+1", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [16, 2], "text": "0", "truncated": false}
+{"step": 37, "task_id": "math:1+1", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [23, 2], "text": "7", "truncated": false}
+{"step": 38, "task_id": "logic:3>2", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [75, 2], "text": "yes", "truncated": false}
+{"step": 38, "task_id": "logic:3>2", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 38, "task_id": "logic:3>2", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [57, 2], "text": "no", "truncated": false}
+{"step": 38, "task_id": "logic:3>2", "task": "logic", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [75, 2], "text": "yes", "truncated": false}
+{"step": 39, "task_id": "math:1+1", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [24, 2], "text": "8", "truncated": false}
+{"step": 39, "task_id": "math:1+1", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [22, 2], "text": "6", "truncated": false}
+{"step": 39, "task_id": "math:1+1", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [17, 2], "text": "1", "truncated": false}
+{"step": 39, "task_id": "math:1+1", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [20, 2], "text": "4", "truncated": false}
+{"step": 40, "task_id": "math:2+8", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [21, 2], "text": "5", "truncated": false}
+{"step": 40, "task_id": "math:2+8", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [17, 16, 2], "text": "10", "truncated": false}
+{"step": 40, "task_id": "math:2+8", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [18, 22, 2], "text": "26", "truncated": false}
+{"step": 40, "task_id": "math:2+8", "task": "math", "reward": 0.0, "correct": 0.0, "formatted": 0.0, "ids": [17, 18, 2], "text": "12", "truncated": false}

@@ -1,0 +1,224 @@
+{
+  "schema": 1,
+  "status": "failed",
+  "config_sha256": "2ce99d6211507277ac28d828d914ca662b32de36a606c433d3f5f7747b5fbf69",
+  "data_sha256": "aece99c9aae814ce0e71cd3bb7ca9ff182784bc9cd06169d7862bf99da8030a7",
+  "source_sha256": "f2ec04bf46cf0cdf074e7d22bf7f767bfad85a6681b00f14b843f849fdc7b916",
+  "git_base": "5b6ff22b3fb7aa069c54866e517f39dfc3160e09",
+  "environment": {
+    "python": "3.11.16",
+    "os": "macOS-26.6.1-arm64-arm-64bit",
+    "chip": "Apple M1 Pro",
+    "torch": "2.6.0",
+    "device": "mps",
+    "mps_available": true,
+    "dtype": "float32"
+  },
+  "scope": "Reduced synthetic pipeline experiment; not DeepSeek-R1 benchmark reproduction",
+  "stages": {
+    "base": {
+      "status": "complete",
+      "parents": [],
+      "seconds": 39.537737084086984,
+      "sha256": {
+        "evaluation/generations.jsonl": "8c2a61ed78f242569fb7f4fa944682f528789b62324ecb7f9b569c4ba85d4d78",
+        "evaluation/metrics.json": "08226bbe1e1937b941140a060367920577eaa094e6c7183ed1c6273cb0cf733c",
+        "evaluation/per_prompt.jsonl": "056545b3c85650760f7ffd7c652b494396ec650bd1b7eb1ebcbc054fd8e00480",
+        "model/README.md": "bd0d3d44a1232f763a97c03c8c472ef2a936a004085601ac324981ece7453767",
+        "model/adapter_config.json": "39f6ac5efcb0bf345c6d12e54ab6a3362bca936da8a666d2e5efe8218e767f9f",
+        "model/adapter_model.safetensors": "cecdcb9c4f400ad9febba90b3137098cc4948ed73a4acf4a65ee45a67e1388c2",
+        "model/local_policy.json": "a9f5b78e850f3500bc5d5dbd4a6125044e562e01e0980768d1bfce9da2f85d3a",
+        "model/special_tokens_map.json": "57491904f8680d4b52ed440f1f7ba48cad1c31ecf3eb453b03484e6ff4723ae8",
+        "model/tokenizer.json": "d4c0d99d84af59e9126913fafe5210822963e9a3065ee43e6833b358b0c2f825",
+        "model/tokenizer_config.json": "435e0103b15eee9a299ded22f93129ebb7409bc5b6dd93f069bd86bdbc7c44a1"
+      },
+      "process_peak_rss_bytes": 739753984,
+      "metrics": {
+        "benchmark": "synthetic-v1",
+        "prompts": 5,
+        "samples_per_prompt": 2,
+        "pass_at_1": 0.0,
+        "prompt_cluster_se": 0.0,
+        "pass_at_k": 0.0,
+        "k": 2,
+        "majority": 0.0,
+        "format_rate": 0.0,
+        "mean_tokens": 64.0,
+        "truncation_rate": 1.0,
+        "by_task": {
+          "code": 0.0,
+          "general": 0.0,
+          "logic": 0.0,
+          "math": 0.0,
+          "safety": 0.0
+        }
+      },
+      "training_rows": 0,
+      "origin": "initialization",
+      "parameters": 70819840,
+      "trainable_parameters": 393216
+    },
+    "r1_zero": {
+      "status": "complete",
+      "parents": [
+        "base"
+      ],
+      "seconds": 36.50513641582802,
+      "sha256": {
+        "evaluation/generations.jsonl": "8c2a61ed78f242569fb7f4fa944682f528789b62324ecb7f9b569c4ba85d4d78",
+        "evaluation/metrics.json": "08226bbe1e1937b941140a060367920577eaa094e6c7183ed1c6273cb0cf733c",
+        "evaluation/per_prompt.jsonl": "056545b3c85650760f7ffd7c652b494396ec650bd1b7eb1ebcbc054fd8e00480",
+        "model/README.md": "bd0d3d44a1232f763a97c03c8c472ef2a936a004085601ac324981ece7453767",
+        "model/adapter_config.json": "39f6ac5efcb0bf345c6d12e54ab6a3362bca936da8a666d2e5efe8218e767f9f",
+        "model/adapter_model.safetensors": "cecdcb9c4f400ad9febba90b3137098cc4948ed73a4acf4a65ee45a67e1388c2",
+        "model/local_policy.json": "a9f5b78e850f3500bc5d5dbd4a6125044e562e01e0980768d1bfce9da2f85d3a",
+        "model/special_tokens_map.json": "aff38493227d813e29fcf8406e8e90062f1f031aa47d589325e9c31d89ac7cc3",
+        "model/tokenizer.json": "d4c0d99d84af59e9126913fafe5210822963e9a3065ee43e6833b358b0c2f825",
+        "model/tokenizer_config.json": "435e0103b15eee9a299ded22f93129ebb7409bc5b6dd93f069bd86bdbc7c44a1",
+        "rollouts.jsonl": "fc2b46bfd8449a5ade931185c71f13375114d666497ee4111521813279656032",
+        "training.jsonl": "74e296a4fa85764fd572fbd3a8ffc1ed1973dfa66ddeb2ee345b078345a0a750"
+      },
+      "process_peak_rss_bytes": 1034108928,
+      "metrics": {
+        "benchmark": "synthetic-v1",
+        "prompts": 5,
+        "samples_per_prompt": 2,
+        "pass_at_1": 0.0,
+        "prompt_cluster_se": 0.0,
+        "pass_at_k": 0.0,
+        "k": 2,
+        "majority": 0.0,
+        "format_rate": 0.0,
+        "mean_tokens": 64.0,
+        "truncation_rate": 1.0,
+        "by_task": {
+          "code": 0.0,
+          "general": 0.0,
+          "logic": 0.0,
+          "math": 0.0,
+          "safety": 0.0
+        }
+      },
+      "training_rows": 305,
+      "origin": "base",
+      "parameters": 70819840,
+      "trainable_parameters": 393216
+    },
+    "cold_start": {
+      "status": "complete",
+      "parents": [
+        "base"
+      ],
+      "seconds": 27.46806937502697,
+      "sha256": {
+        "evaluation/generations.jsonl": "59688660c43931239dbd2276597a8f7be2389c4e06c0dc8848c62a2be83e9500",
+        "evaluation/metrics.json": "08226bbe1e1937b941140a060367920577eaa094e6c7183ed1c6273cb0cf733c",
+        "evaluation/per_prompt.jsonl": "056545b3c85650760f7ffd7c652b494396ec650bd1b7eb1ebcbc054fd8e00480",
+        "model/README.md": "bd0d3d44a1232f763a97c03c8c472ef2a936a004085601ac324981ece7453767",
+        "model/adapter_config.json": "39f6ac5efcb0bf345c6d12e54ab6a3362bca936da8a666d2e5efe8218e767f9f",
+        "model/adapter_model.safetensors": "6cb374d0b82f68244f12e41b89bf6add2f99dda515302e99912b1218da6424df",
+        "model/local_policy.json": "a9f5b78e850f3500bc5d5dbd4a6125044e562e01e0980768d1bfce9da2f85d3a",
+        "model/special_tokens_map.json": "aff38493227d813e29fcf8406e8e90062f1f031aa47d589325e9c31d89ac7cc3",
+        "model/tokenizer.json": "d4c0d99d84af59e9126913fafe5210822963e9a3065ee43e6833b358b0c2f825",
+        "model/tokenizer_config.json": "435e0103b15eee9a299ded22f93129ebb7409bc5b6dd93f069bd86bdbc7c44a1",
+        "training.jsonl": "bce882ddd954c8d94dfbfbf1498b42a509afdd2fc1c0c5bfb7a5f34332cbcdc2"
+      },
+      "process_peak_rss_bytes": 1111031808,
+      "metrics": {
+        "benchmark": "synthetic-v1",
+        "prompts": 5,
+        "samples_per_prompt": 2,
+        "pass_at_1": 0.0,
+        "prompt_cluster_se": 0.0,
+        "pass_at_k": 0.0,
+        "k": 2,
+        "majority": 0.0,
+        "format_rate": 0.0,
+        "mean_tokens": 64.0,
+        "truncation_rate": 1.0,
+        "by_task": {
+          "code": 0.0,
+          "general": 0.0,
+          "logic": 0.0,
+          "math": 0.0,
+          "safety": 0.0
+        }
+      },
+      "training_rows": 305,
+      "origin": "base",
+      "parameters": 70819840,
+      "trainable_parameters": 393216
+    },
+    "reasoning_rl": {
+      "status": "complete",
+      "parents": [
+        "cold_start"
+      ],
+      "seconds": 39.18577179219574,
+      "sha256": {
+        "evaluation/generations.jsonl": "57f65bf3b6432a69a897b5d54b4dc3b4ff34da21671fc5f601c64aea57e93f7d",
+        "evaluation/metrics.json": "08226bbe1e1937b941140a060367920577eaa094e6c7183ed1c6273cb0cf733c",
+        "evaluation/per_prompt.jsonl": "056545b3c85650760f7ffd7c652b494396ec650bd1b7eb1ebcbc054fd8e00480",
+        "model/README.md": "bd0d3d44a1232f763a97c03c8c472ef2a936a004085601ac324981ece7453767",
+        "model/adapter_config.json": "cde8338af2a481a379bbc15e83b1ff2030dd9c997da0e6a5fb572cfa53d005f3",
+        "model/adapter_model.safetensors": "4e4a90e455c7b6cc45146eecdcbab316b0b03f828c74d127aa9d90cc352d49d3",
+        "model/local_policy.json": "a9f5b78e850f3500bc5d5dbd4a6125044e562e01e0980768d1bfce9da2f85d3a",
+        "model/special_tokens_map.json": "aff38493227d813e29fcf8406e8e90062f1f031aa47d589325e9c31d89ac7cc3",
+        "model/tokenizer.json": "d4c0d99d84af59e9126913fafe5210822963e9a3065ee43e6833b358b0c2f825",
+        "model/tokenizer_config.json": "435e0103b15eee9a299ded22f93129ebb7409bc5b6dd93f069bd86bdbc7c44a1",
+        "rollouts.jsonl": "ffadd343189be31ce04b302800413dbe07b3eedc32c2fd2bfdc24e6cac972f41",
+        "training.jsonl": "bb58e8ab68009db8141f09b09a2a635cbf1d0652b1ec022ffea39d67013ff948"
+      },
+      "process_peak_rss_bytes": 699777024,
+      "metrics": {
+        "benchmark": "synthetic-v1",
+        "prompts": 5,
+        "samples_per_prompt": 2,
+        "pass_at_1": 0.0,
+        "prompt_cluster_se": 0.0,
+        "pass_at_k": 0.0,
+        "k": 2,
+        "majority": 0.0,
+        "format_rate": 0.0,
+        "mean_tokens": 64.0,
+        "truncation_rate": 1.0,
+        "by_task": {
+          "code": 0.0,
+          "general": 0.0,
+          "logic": 0.0,
+          "math": 0.0,
+          "safety": 0.0
+        }
+      },
+      "training_rows": 305,
+      "origin": "cold_start",
+      "parameters": 70819840,
+      "trainable_parameters": 393216
+    },
+    "rejection_sampling": {
+      "status": "failed",
+      "parents": [
+        "reasoning_rl"
+      ],
+      "error": "Rejection sampling accepted zero traces. Increase training/sampling or supply a better model. Raw candidates are saved; downstream distillation cannot honestly proceed.",
+      "seconds": 56.549423249904066
+    }
+  },
+  "inputs_sha256": {
+    "datasets/evaluation_subset.jsonl": "3c63378988a66c434c6eca8ff742d9a39c8ca6d5a114c25d5d057a3f4ad571cf",
+    "datasets/provenance.json": "51ee641f17633661d35be81b0d866efe6b52db78198cb58ee41f46807397a22a",
+    "datasets/test.jsonl": "09c822c060aba57f79566117d30755fa05ddc0cc82d98e13dde857970d13bcb0",
+    "datasets/train.jsonl": "ec5a8ae6d493d43a797aadbbc205d23c88c91b04b5b19edde400a1bffc34799c",
+    "datasets/validation.jsonl": "55a9d983f372877991adf7be9e4389e6c4da46485ba8432efe19e889190c74ac",
+    "source/__init__.py": "8fcd37d0ef3f700dcec7b4c4f5a0a64ca2b5f4940c426d6afca8ddf6f3a9f3a3",
+    "source/cli.py": "3e9049865d409ef20486a5a96227b602051b06b338ea8705965933affd02145a",
+    "source/config.py": "6365af455b67780afb7ddc45867b0e825c03934e86eb0e10b3328d520a3832a5",
+    "source/data.py": "6b8f2fff93f592e0191c0a9fae69886566f01a9081aa26e878c681e0844e467f",
+    "source/evaluation.py": "4e95679d98494e1a38a67abe971ef27f787c7c782dd07fb7292ad4a91e303e5f",
+    "source/model.py": "fa37e8040cd2bf1a7dd5576b0e99a98edcbf6e91c13dcd9bedf876824a198386",
+    "source/pipeline.py": "f4588261bc2bd9f8ed068cbb2f507e0edddec49b5b93839cf4aa35afd917c2dd",
+    "source/report.py": "bc9b918b9d678f206d0f850d5c66d2ea7e55f95b6c6cbb5b2f07ccadf37cf378",
+    "source/training.py": "3aac52775929d7bdd79a40c44d81ba91cddb7bd80ad2f53e0d6a99c09904df92",
+    "config.json": "0a2a140799c134e932bb6c80266add652aa60426ee19e06598f5937b2d1be7ae"
+  }
+}

@@ -1,0 +1,90 @@
+[
+  {
+    "stage": "base",
+    "benchmark": "synthetic-v1",
+    "prompts": 5,
+    "samples_per_prompt": 2,
+    "pass_at_1": 0.0,
+    "prompt_cluster_se": 0.0,
+    "pass_at_k": 0.0,
+    "k": 2,
+    "majority": 0.0,
+    "format_rate": 0.0,
+    "mean_tokens": 64.0,
+    "truncation_rate": 1.0,
+    "by_task": {
+      "code": 0.0,
+      "general": 0.0,
+      "logic": 0.0,
+      "math": 0.0,
+      "safety": 0.0
+    },
+    "seconds": 39.537737084086984
+  },
+  {
+    "stage": "r1_zero",
+    "benchmark": "synthetic-v1",
+    "prompts": 5,
+    "samples_per_prompt": 2,
+    "pass_at_1": 0.0,
+    "prompt_cluster_se": 0.0,
+    "pass_at_k": 0.0,
+    "k": 2,
+    "majority": 0.0,
+    "format_rate": 0.0,
+    "mean_tokens": 64.0,
+    "truncation_rate": 1.0,
+    "by_task": {
+      "code": 0.0,
+      "general": 0.0,
+      "logic": 0.0,
+      "math": 0.0,
+      "safety": 0.0
+    },
+    "seconds": 36.50513641582802
+  },
+  {
+    "stage": "cold_start",
+    "benchmark": "synthetic-v1",
+    "prompts": 5,
+    "samples_per_prompt": 2,
+    "pass_at_1": 0.0,
+    "prompt_cluster_se": 0.0,
+    "pass_at_k": 0.0,
+    "k": 2,
+    "majority": 0.0,
+    "format_rate": 0.0,
+    "mean_tokens": 64.0,
+    "truncation_rate": 1.0,
+    "by_task": {
+      "code": 0.0,
+      "general": 0.0,
+      "logic": 0.0,
+      "math": 0.0,
+      "safety": 0.0
+    },
+    "seconds": 27.46806937502697
+  },
+  {
+    "stage": "reasoning_rl",
+    "benchmark": "synthetic-v1",
+    "prompts": 5,
+    "samples_per_prompt": 2,
+    "pass_at_1": 0.0,
+    "prompt_cluster_se": 0.0,
+    "pass_at_k": 0.0,
+    "k": 2,
+    "majority": 0.0,
+    "format_rate": 0.0,
+    "mean_tokens": 64.0,
+    "truncation_rate": 1.0,
+    "by_task": {
+      "code": 0.0,
+      "general": 0.0,
+      "logic": 0.0,
+      "math": 0.0,
+      "safety": 0.0
+    },
+    "seconds": 39.18577179219574
+  }
+]

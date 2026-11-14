@@ -1,0 +1,32 @@
+# Native upstream GRPOTrainer: local generation, float32, eager attention, no CUDA extensions.
+model_name_or_path: EleutherAI/pythia-70m-deduped
+model_revision: e93a9faa9c77e5d09219f6c868bfc7a1bd65593c
+torch_dtype: float32
+attn_implementation: eager
+dataset_name: experiments/mac-demo-dataset
+dataset_prompt_column: problem
+use_peft: true
+lora_r: 8
+lora_alpha: 16
+lora_target_modules: [query_key_value, dense, dense_h_to_4h, dense_4h_to_h]
+bf16: false
+fp16: false
+use_vllm: false
+use_liger_loss: false
+gradient_checkpointing: false
+per_device_train_batch_size: 2
+gradient_accumulation_steps: 1
+num_generations: 2
+max_prompt_length: 64
+max_completion_length: 32
+max_steps: 2
+learning_rate: 0.00002
+logging_steps: 1
+save_strategy: "no"
+eval_strategy: "no"
+report_to: []
+push_to_hub: false
+dataloader_pin_memory: false
+reward_funcs: [accuracy, format]
+output_dir: experiments/trl-mps-grpo
+seed: 42

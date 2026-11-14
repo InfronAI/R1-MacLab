@@ -1,0 +1,20 @@
+{
+  "benchmark": "synthetic-v1",
+  "prompts": 24,
+  "samples_per_prompt": 4,
+  "pass_at_1": 0.78125,
+  "prompt_cluster_se": 0.08420625234970744,
+  "pass_at_k": 0.7916666666666666,
+  "k": 4,
+  "majority": 0.7916666666666666,
+  "format_rate": 1.0,
+  "mean_tokens": 10.666666666666666,
+  "truncation_rate": 0.0,
+  "by_task": {
+    "code": 1.0,
+    "general": 1.0,
+    "logic": 0.3333333333333333,
+    "math": 0.7916666666666666,
+    "safety": 1.0
+  }
+}

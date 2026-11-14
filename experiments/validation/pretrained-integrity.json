@@ -1,0 +1,9 @@
+{
+  "model": "EleutherAI/pythia-70m-deduped",
+  "revision": "e93a9faa9c77e5d09219f6c868bfc7a1bd65593c",
+  "weights_sha256": "3da388330e4549156d76b58d6d268c63cd005e9336b4f4d2d378421e7b7a33fd",
+  "cache_blob_name": "3da388330e4549156d76b58d6d268c63cd005e9336b4f4d2d378421e7b7a33fd",
+  "matches_blob_name": true,
+  "official_lfs_sha256": "3da388330e4549156d76b58d6d268c63cd005e9336b4f4d2d378421e7b7a33fd",
+  "matches_official": true
+}

@@ -1,0 +1,24 @@
+name: Portable local pipeline
+on: [push, pull_request]
+jobs:
+  local:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install -e '.[mac,tests]' ruff
+      - run: ruff check src/open_r1/local tests/local
+      - run: python -m pytest tests/local tests/test_rewards.py -q
+      - run: open-r1 doctor --device cpu
+      - run: open-r1 run --config recipes/local/smoke.json --output experiments/ci --until reasoning_rl
+      - run: open-r1 verify --run experiments/ci
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: local-${{ matrix.os }}
+          path: experiments/ci

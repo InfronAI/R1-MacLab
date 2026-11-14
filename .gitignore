@@ -179,3 +179,9 @@ results/
 
 .vscode/
 .python-version
+
+# Local runs remain reviewable; transient caches and movie-render frames do not.
+experiments/**/.cache/
+assets/demo/frames/
+experiments/development/**/adapter_model.safetensors
+.DS_Store

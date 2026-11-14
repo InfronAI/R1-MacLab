@@ -1,0 +1,15 @@
+Applying chat template to train dataset:   0%|          | 0/167 [00:00<?, ? examples/s]Applying chat template to train dataset: 100%|██████████| 167/167 [00:00<00:00, 7298.62 examples/s]
+Tokenizing train dataset:   0%|          | 0/167 [00:00<?, ? examples/s]Tokenizing train dataset: 100%|██████████| 167/167 [00:00<00:00, 6093.99 examples/s]
+Truncating train dataset:   0%|          | 0/167 [00:00<?, ? examples/s]Truncating train dataset: 100%|██████████| 167/167 [00:00<00:00, 37948.25 examples/s]
+[WARNING|trainer.py:791] 2026-11-14 16:24:08,009 >> No label_names provided for model class `PeftModelForCausalLM`. Since `PeftModel` hides base models input arguments, if label_names is not given, label_names can't be set automatically within `Trainer`. Note that empty label_names list will be used instead.
+  0%|          | 0/2 [00:00<?, ?it/s] 50%|█████     | 1/2 [00:05<00:05,  5.62s/it]                                              50%|█████     | 1/2 [00:05<00:05,  5.62s/it]100%|██████████| 2/2 [00:06<00:00,  2.73s/it]                                             100%|██████████| 2/2 [00:06<00:00,  2.73s/it]                                             100%|██████████| 2/2 [00:06<00:00,  2.73s/it]100%|██████████| 2/2 [00:06<00:00,  3.16s/it]
+{'loss': 37.9454, 'grad_norm': 26.391895294189453, 'learning_rate': 0.0003, 'num_tokens': 36.0, 'mean_token_accuracy': 0.34285715222358704, 'epoch': 0.01}
+{'loss': 35.6301, 'grad_norm': 29.239076614379883, 'learning_rate': 0.00015, 'num_tokens': 74.0, 'mean_token_accuracy': 0.29729729890823364, 'epoch': 0.01}
+{'train_runtime': 6.3248, 'train_samples_per_second': 0.316, 'train_steps_per_second': 0.316, 'train_loss': 36.787723541259766, 'epoch': 0.01}
+***** train metrics *****
+  total_flos               =       18GF
+  train_loss               =    36.7877
+  train_runtime            = 0:00:06.32
+  train_samples            =        167
+  train_samples_per_second =      0.316
+  train_steps_per_second   =      0.316
