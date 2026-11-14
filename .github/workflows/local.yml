@@ -17,7 +17,7 @@ jobs:
       - run: open-r1 doctor --device cpu
       - run: open-r1 run --config recipes/local/smoke.json --output experiments/ci --until reasoning_rl
       - run: open-r1 verify --run experiments/ci
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: always()
         with:
           name: local-${{ matrix.os }}
